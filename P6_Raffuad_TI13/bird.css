@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.fp::first-letter {
+    color: blue;
+    font-size: 80px;
+    font-family: serif;
+}
+#header {
+    text-align: center;  
+    background-color: aqua;
+}
+
+
+blockquote {
+text-align: center;
+background-color: yellow;
+font-weight: bold;
+}
+
+.besar {
+    display: inline;
+    font-size: 80px;
+    color: blue;
+}
+
+.gambar {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+div ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+div ul li {
+    display: inline;
+}
+
+.koleksi img {
+    display: inline;
+    width: 20%;
+}
+
+.promo {
+    background-color: yellow;
+    color: red;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+#profil {
+    text-align: left;
+    font-weight: bold;
+}
+
+.profile ul {
+    text-align: left;
+}
+
+.beternak ol {
+    text-align: left;
+}
+
+.company li {
+    list-style-type: none;
+    display: inline;
+}
+

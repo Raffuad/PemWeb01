@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <script>
+        function gambar() {
+            let drop_img = document.getElementById("dropdown_img").value;
+            let image = document.getElementById("image");
+
+            if (drop_img == "gorilla") {
+                image.setAttribute("src","https://people.com/thmb/YLQ9wQHzWSrvJ5aIGp6nYSepxA4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1019x278:1021x280)/gorilla-88af73b2a41b4687932d76d470e651ee.jpg")
+                alert("ini gambar gorilla");
+
+            } else if(drop_img == "singa") {
+                image.setAttribute("src","https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/5/9/5d4fdfc2-e279-444b-b67b-2bccf1ff127b.jpg")
+                alert("ini gambar singa");
+
+            } else if(drop_img == "elang") {
+                image.setAttribute("src","https://moondoggiesmusic.com/wp-content/uploads/2019/11/Burung-Elang.jpg")
+                alert("ini gambar elang");
+
+            } else {
+                alert("Tidak ada gambar");
+
+            }
+        }
+    </script>
+</head>
+<body>
+   <select id="dropdown_img" onchange="gambar()">
+    <option hidden>---Pilih Gambar---</option>
+    <option value="gorilla">Gorilla</option>
+    <option value="singa">Singa</option>
+    <option value="elang">Elang</option>
+   </select> 
+   <br>
+   <img alt="gambar" id="image" >
+</body>
+</html>
